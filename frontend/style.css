@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 10px 0px 30px 0px;
+  font-family: Arial;
+}
+.firstsec {
+  background-color: rgb(171, 199, 219);
+  padding: 30px 100px 30px 100px;
+}
+.firstsec h1 {
+  color: black;
+  padding-left: 15px;
+}
+.fa {
+  padding: 20px 20px 30px 20px;
+  font-size: 60px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-twitter {
+  background: white;
+  color: #55acee;
+}
+.cont {
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid11 {
+  display: grid;
+  grid-template-columns: 15% 35% 35% 15%;
+  height: 50px;
+  margin: 0px 0px 15px 0px;
+}
+.grid11 div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+}
+.grid11 div h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.grid11 div p {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+}
+.grid12 {
+  display: grid;
+  grid-template-columns: 8% 10% 50% 32%;
+  margin: 0;
+  height: 0px;
+}
+.grid12 div img {
+  width: 20px;
+  height: 20px;
+}
+.grid13 {
+  display: grid;
+  grid-template-columns: 8% 10% 45% 37%;
+  margin: 0;
+  height: 0px;
+}
+.grid13 div img {
+  width: 20px;
+  height: 20px;
+}
+.secondsec {
+  margin-top: 50px;
+}
+.secondsec h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.secondsec p {
+  text-align: center;
+  margin-top: 0;
+}
+.thirdsec {
+  justify-content: center;
+  margin: 10px 450px 20px 450px;
+  border: 1px solid orange;
+  border-radius: 15px;
+  padding: 35px;
+  background-color: rgb(212, 204, 201, 0.2);
+}
+.thirdsec p {
+  margin: 0px 0px 10px 0px;
+}
+.thirdsec h1 {
+  font-size: 30px;
+  margin: 0;
+}
+.thirdsec hr {
+  margin: 20px 0px 20px 0px;
+}
+.thirdsec button {
+  background-color: #55acee;
+  color: white;
+  height: 40px;
+  width: 380px;
+  border-radius: 5px;
+  border: 0;
+  padding-top: 13px;
+}
+.thirdsec button img {
+  width: 20px;
+  height: 15px;
+  padding: 0px 0px 0px 3px;
+  float: left;
+}
